@@ -1,0 +1,37 @@
+
+#Category
+
+# @name getAllCategories
+GET http://localhost:3000/categories
+
+###
+
+# @name addNewCategory
+POST http://localhost:3000/categories
+Content-Type: application/json
+
+{
+    "name": "GameNFT2"
+}
+###
+
+# @name updateCategory
+PATCH  http://localhost:3000/categories/2
+Content-Type: application/json
+
+{
+    "name": "GameNFT2 LAP"
+}
+###
+
+# @name removeCategory
+DELETE  http://localhost:3000/categories/3
+Content-Type: application/json
+
+{
+    "name": "GameNFT2 LAP"
+}
+
+
+
+
